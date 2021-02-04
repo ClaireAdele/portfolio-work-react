@@ -1,11 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Phone Screen Display */
+
+@media only screen and (max-width: 736px) {
+
 html {
     scroll-behavior: smooth;
 }
 
+/* styling of contact ribbon at bottom of page */
 #contact {
     overflow: hidden;
     position: fixed;
-    /* font-size: 4vw; */
+    font-size: 4vw;
     bottom: 0; 
     width: 100%;
     border: 2px solid red;
@@ -18,7 +28,7 @@ html {
 #navigation {
     overflow: hidden;
     position: fixed;
-    /* font-size: 4vw; */
+    font-size: 4vw;
     top: 0; 
     display: flex;
     justify-content: flex-end;
@@ -44,10 +54,12 @@ html {
 
 .text-container {
    display: flex;
-   /* font-size: 5vw; */
+   font-size: 5vw;
    flex-direction: column;
    border: 2px solid red;
-   /* margin: 10% 3% 40% 3%; */
+   margin: 10% 3% 40% 3%;
+   text-align: justify;
+   text-justify: inter-word;
 }
 
 .picture-container {
@@ -55,12 +67,90 @@ html {
    flex-direction: column;
    align-items: center;
    border: 2px solid red;
-   /* margin: 30% 0% 10% 0%; */
+   margin: 30% 0% 10% 0%;
 }
 
 #Claire {
     max-width: 35%;
     max-height: 35%;
 }
+
+}
+
+/* Normal screen display */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contact {
+    overflow: hidden;
+    position: relative;
+    font-size: medium;
+    bottom: 0; 
+    width: 100%;
+    border: 2px solid red;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    background-color: red;
+}
+
+#navigation {
+    overflow: hidden;
+    position: fixed;
+    font-size: medium;
+    top: 0; 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: 2px;
+    border: 2px solid red;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.space-box {
+    border: 2px solid red;
+    margin: 30% 5% 30% 5%;
+}
+
+.navLink {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.imgLink {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+   display: flex;
+   font-size: medium;
+   flex-direction: column;
+   border: 2px solid red;
+   margin: 0% 5% 15% 5%;
+   text-align: justify;
+   text-justify: inter-word;
+}
+
+.picture-container {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid red;
+   margin: 7% 20% 5% 20%;
+   padding: 20px 5px 20px 5px;
+}
+
+#Claire {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 
 /* The margins are all going to have to depend on the media, as well as the font sizes, this will have to be overhauled tomorrow or some other time */
