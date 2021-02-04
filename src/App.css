@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+html {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#contact {
+    overflow: hidden;
+    position: fixed;
+    /* font-size: 4vw; */
+    bottom: 0; 
+    width: 100%;
+    border: 2px solid red;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    background-color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navigation {
+    overflow: hidden;
+    position: fixed;
+    /* font-size: 4vw; */
+    top: 0; 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: 2px;
+    border: 2px solid red;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navLink {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.imgLink {
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-container {
+   display: flex;
+   /* font-size: 5vw; */
+   flex-direction: column;
+   border: 2px solid red;
+   /* margin: 10% 3% 40% 3%; */
 }
+
+.picture-container {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid red;
+   /* margin: 30% 0% 10% 0%; */
+}
+
+#Claire {
+    max-width: 35%;
+    max-height: 35%;
+}
+
+/* The margins are all going to have to depend on the media, as well as the font sizes, this will have to be overhauled tomorrow or some other time */
