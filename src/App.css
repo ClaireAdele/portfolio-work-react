@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p {
+    text-indent: 10%;
+}
+
 /* styling of contact ribbon at bottom of page */
 #contact {
     overflow: hidden;
@@ -83,6 +87,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p {
+    text-indent: 10%;
+}
+
 #contact {
     overflow: hidden;
     position: relative;
@@ -133,7 +141,7 @@ html {
    font-size: medium;
    flex-direction: column;
    border: 2px solid red;
-   margin: 0% 5% 15% 5%;
+   margin: 0% 5% 1% 5%;
    text-align: justify;
    text-justify: inter-word;
 }
