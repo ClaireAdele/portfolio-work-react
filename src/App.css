@@ -5,7 +5,7 @@
 
 /* Phone Screen Display */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 736px) {
 
 html {
     scroll-behavior: smooth;
@@ -18,7 +18,7 @@ p {
     text-indent: 10%;
 }
 
-/* styling of contact ribbon at bottom of page */
+
 #contact {
     overflow: hidden;
     position: relative;
@@ -87,18 +87,36 @@ p {
     max-height: 35%;
 }
 
+#flex-container-skills {
+    border: 2px solid red;
+    padding: 15px 15px 15px 15px;
+    margin: 10% 5% 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skillbox {
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+    background-color: rgb(90, 146, 6);
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
 }
 
 /* Normal screen display */
 
-@media only screen and (min-width : 1030px) {
+@media only screen and (min-width : 736px) {
 
 html {
     scroll-behavior: smooth;
-    background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
+    /* background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 0% 0%; */
 
 }
 
@@ -114,7 +132,7 @@ p {
     overflow: hidden;
     position: relative;
     font-size: medium;
-    bottom: 0px; 
+    bottom: 0; 
     width: 100%;
     border: 2px solid red;
     margin: 0px auto;
@@ -136,8 +154,8 @@ p {
     margin: 0px auto;
     left: 0px;
     right: 0px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .space-box {
@@ -155,12 +173,20 @@ p {
     justify-content: center;
 }
 
+#flex-container-about{
+    display: flex;
+    margin: 7% 3% 7% 3%;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid red;
+}
+
 .text-container {
    display: flex;
    font-size: medium;
    flex-direction: column;
    border: 2px solid red;
-   margin: 0% 5% 1% 5%;
+   margin-left: 5%;
+   margin-right: 5%;
    text-align: justify;
    text-justify: inter-word;
 }
@@ -170,13 +196,40 @@ p {
    flex-direction: column;
    align-items: center;
    border: 2px solid red;
-   margin: 7% 20% 5% 20%;
+   margin: 3% 3% 3% 3%;
    padding: 20px 5px 20px 5px;
 }
 
+#paragraph1 {
+    margin-bottom : 3%;
+}
+
+#paragraph2 {
+    margin-bottom : 3%;
+}
+
 #Claire {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 110%;
+    max-height: 110%;
+    border-radius: 50%;
+}
+
+#flex-container-skills {
+    border: 2px solid red;
+    padding: 15px 15px 15px 15px;
+    margin: 5% 5% 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skillbox {
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+    background-color: rgb(90, 146, 6);
+    color: white;
+    border-radius: 10px 10px 10px 10px;
 }
 
 }

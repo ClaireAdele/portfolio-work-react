@@ -4,7 +4,7 @@ import Text from "./Text"
 
 export default function About() {
     return (
-        <div>
+        <div id="flex-container-about">
             <Picture  />
             <Text />
         </div>

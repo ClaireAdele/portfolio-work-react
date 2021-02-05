@@ -3,7 +3,7 @@ import React from 'react'
 export default function Text() {
     return (
         <div>
-            <p class="text-container">I decided to work in the tech industry after a few years of soul-searching, looking for a line of work
+            <p id="parapgrah1" class="text-container">I decided to work in the tech industry after a few years of soul-searching, looking for a line of work
             that would truly fit my skills and personality. I have always loved taking on challenges and working
             hard towards goals; for instance, in 2017 I qualified as an English teacher in the British school
             system, despite not being a native speaker. My lifelong passion for the English language and literature
@@ -12,7 +12,7 @@ export default function Text() {
             would, and that having to perform for a live audience all day was wearing me thin. Besides,
             I realised I craved more opportunities for reflective, analytical and theoretical work in my every day
             life, which was an aspect of academic research that I had relished and excelled at. </p>
-            <p class="text-container">Those reservations led me to start thinking about other careers that I could find fulfilling, and
+            <p id="parapgrah2" class="text-container">Those reservations led me to start thinking about other careers that I could find fulfilling, and
             software engineering appeared to be a field that would satisfy my desire for intellectually-challenging
             and meaningful work. I am now currently completing the Northcoders bootcamp course online, and I am
             finding deep satisfaction and happiness as the weeks progress and my skillset grows as I take on

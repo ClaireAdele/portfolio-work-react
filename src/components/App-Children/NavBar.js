@@ -7,7 +7,9 @@ export default function NavBar() {
             <Link class="navLink" to="/">Home</Link>
             <Link class="navLink" to="/about">About</Link>
             <Link class="navLink" to="/experience">Experience</Link>
-            <Link class="navLink" to="/technical_skills">Technical Skills</Link>
+            <Link class="navLink" to="/technical_skills/backend_projects">Back-End Projects</Link>
+            <Link class="navLink" to="/technical_skills/frontend_projects">Front-End Projects</Link>
+            <Link class="navLink" to="/technical_skills">Tech</Link>
         </div>
     )
 }
