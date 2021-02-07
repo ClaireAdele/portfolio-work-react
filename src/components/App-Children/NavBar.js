@@ -14,7 +14,6 @@ export default function NavBar() {
             <Link  to="/technical_skills/frontend_projects">Front-End Projects</Link>
             </div>
             </div>
-            {/* <Link class="navLink" to="/technical_skills">Tech</Link> */}
         </div>
     )
 }
