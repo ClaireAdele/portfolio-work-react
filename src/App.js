@@ -17,7 +17,7 @@ function App() {
         <Home path="/"/>
         <About path="/about" />
         <Experience path="/experience" />
-        <TechSkills path= "/technical_skills"/>
+        <TechSkills path= "/technical_skills/*"/>
       </Router>
       <div>
       <Contact />
