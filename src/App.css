@@ -21,9 +21,10 @@ p {
 
 #contact {
     overflow: hidden;
-    position: relative;
+    position: absolute;
     font-size: medium;
-    bottom: 0px; 
+    bottom: 0; 
+    left: 0;
     width: 100%;
     border: 2px solid red;
     margin: 0px auto;
@@ -33,12 +34,12 @@ p {
 }
 
 #navigation {
-    overflow: hidden;
     position: fixed;
     font-size: 4vw;
     top: 0; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     border: 2px;
     border: 2px solid red;
@@ -51,7 +52,7 @@ p {
 
 .navLink {
     padding-left: 0.5em;
-    padding-right: 0.5em;
+    margin-right: 0.5em;
 }
 
 .imgLink {
@@ -77,9 +78,13 @@ p {
    margin: 30% 0% 10% 0%;
 }
 
-.space-box {
-    border: 2px solid red;
-    margin: 100% 5% 100% 5%;
+.page-container {
+    border: 10px solid #FFB5A7;
+  position: absolute;
+  width: 100%;
+  height: 150vh;
+  top: 0;
+  left: 0;  
 }
 
 #Claire {
@@ -140,24 +145,21 @@ html {
 
 }
 
-body {
-    height: 100%;
-}
-
 p {
     text-indent: 10%;
 }
 
 #contact {
     overflow: hidden;
-    position: relative;
+    position: absolute;
     font-size: medium;
     bottom: 0; 
+    left: 0;
     width: 100%;
     border: 2px solid red;
     margin: 0px auto;
-    left: 0px;
     right: 0px;
+    left: 0px;
     background-color: red;
 }
 
@@ -170,17 +172,25 @@ p {
     width: 100%;
     border: 2px;
     border: 2px solid red;
-    margins: 0% 10% 0% 10%;
 }
 
-.space-box {
-    border: 2px solid red;
-    margin: 30% 5% 30% 5%;
+.page-container {
+   
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    top: 0;
+    left: 0;
+    background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%; 
 }
 
 .navLink {
     padding-left: 0.5em;
     padding-right: 0.5em;
+    margin-right: 2.5em;
 }
 
 .imgLink {

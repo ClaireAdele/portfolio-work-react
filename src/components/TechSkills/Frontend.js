@@ -3,7 +3,7 @@ import Blurb from "./Blurb"
 
 export default function Frontend() {
     return (
-        <div>
+        <div >
         <h1>GGGG</h1>
         </div>
     )

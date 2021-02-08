@@ -9,7 +9,7 @@ import Home from "./components/App-Children/Home"
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
       <header>
         <NavBar />
       </header>

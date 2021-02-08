@@ -7,7 +7,7 @@ import Blurb from './Blurb'
 
 export default function TechSkills() {
     return (
-        <div>
+        <div >
             <Blurb />
             <Router>
                 <Backend path="/backend_projects" />
