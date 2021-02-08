@@ -84,7 +84,7 @@ p {
   width: 100%;
   height: 150vh;
   top: 0;
-  left: 0;  
+  left: 0;
 }
 
 #Claire {
@@ -128,6 +128,24 @@ p {
 .dropdown:active .dropdown-content {
     display: flex;
     flex-direction: column;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    border: 2px solid red;
+    margin: 0% 30% 0% 30%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-img {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 }
@@ -180,11 +198,7 @@ p {
     width: 100%;
     height: 150vh;
     top: 0;
-    left: 0;
-    background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%; 
+    left: 0; 
 }
 
 .navLink {
@@ -276,5 +290,23 @@ p {
     display: flex;
     flex-direction: column;
 }
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    margin: 0% 30% 0% 30%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-img {
+    max-width: 50%;
+    max-height: 50%;
 }
 /* The margins are all going to have to depend on the media, as well as the font sizes, this will have to be overhauled tomorrow or some other time */
