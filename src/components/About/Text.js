@@ -12,7 +12,7 @@ export default function Text() {
             would, and that having to perform for a live audience all day was wearing me thin. Besides,
             I realised I craved more opportunities for reflective, analytical and theoretical work in my every day
             life, which was an aspect of academic research that I had relished and excelled at. </p>
-            <p id="parapgrah2" class="text-container">Those reservations led me to start thinking about other careers that I could find fulfilling, and
+            <p id="paragraph2" class="text-container">Those reservations led me to start thinking about other careers that I could find fulfilling, and
             software engineering appeared to be a field that would satisfy my desire for intellectually-challenging
             and meaningful work. I am now currently completing the Northcoders bootcamp course online, and I am
             finding deep satisfaction and happiness as the weeks progress and my skillset grows as I take on

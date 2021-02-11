@@ -6,7 +6,7 @@
 
 /* Phone Screen Display */
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 1023px) {
 
 html {
     scroll-behavior: smooth;
@@ -17,20 +17,22 @@ p {
 }
 
 #contact {
+    font-family: "Nanum Myeongjo";
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     font-size: medium;
     bottom: 0; 
     left: 0;
     width: 100%;
     border: 2px solid red;
     margin: 0px auto;
-    left: 0px;
     right: 0px;
+    left: 0px;
     background-color: red;
 }
 
 #navigation {
+    font-family: "Nanum Myeongjo";
     position: fixed;
     font-size: 4vw;
     top: 0; 
@@ -62,17 +64,17 @@ p {
    font-size: medium;
    flex-direction: column;
    border: 2px solid red;
-   margin: 10% 3% 15% 3%;
+   margin: 10% 3% 10% 3%;
    text-align: justify;
    text-justify: inter-word;
 }
 
 .picture-container {
     display: flex;
-   flex-direction: column;
-   align-items: center;
-   border: 2px solid red;
-   margin: 30% 0% 10% 0%;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    margin: 30% 0% 10% 0%;
 }
 
 #Claire {
@@ -91,6 +93,7 @@ p {
 }
 
 .skillbox {
+    font-family: "Nanum Myeongjo";
     padding: 1em 1em 1em 1em;
     margin-bottom: 3%;
     background-color: rgb(90, 146, 6);
@@ -141,18 +144,49 @@ p {
 }
 
 .page-container {
+    border: 10px solid grey;
     position: absolute;
     width: 100%;
-    height: 150vh;
+    min-height: 100%;
     top: 0;
     left: 0; 
+}
+
+
+#homepage {
+    border: 2px solid red;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#devImg {
+    border: 2px solid red;
+    padding: 2em 2em 2em 2em;
+    max-width: 75% !important;
+    max-height: auto;
+}
+
+#introduction {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#paragraph2 {
+    margin-bottom: 30% !important;
 }
 
 }
 
 /* Normal screen display */
 
-@media only screen and (min-width : 736px) {
+@media only screen and (min-width : 1024px) {
 
 html {
     scroll-behavior: smooth;
@@ -165,9 +199,11 @@ html {
 
 p {
     text-indent: 10%;
+    font-family: "Nanum Gothic";
 }
 
 #contact {
+    font-family: "Nanum Myeongjo";
     overflow: hidden;
     position: absolute;
     font-size: medium;
@@ -182,6 +218,7 @@ p {
 }
 
 #navigation {
+    font-family: "Nanum Myeongjo";
     position: fixed;
     font-size: medium;
     top: 0; 
@@ -264,6 +301,7 @@ p {
 }
 
 .skillbox {
+    font-family: "Nanum Myeongjo";
     padding: 1em 1em 1em 1em;
     margin-bottom: 1%;
     background-color: rgb(90, 146, 6);
@@ -325,12 +363,25 @@ ul {
 }
 
 #homepage {
+    font-family: "Nanum Myeongjo";
     border: 2px solid red;
     min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 #devImg {
+    border: 2px solid red;
     max-width: 30%;
     max-height: 30%;
+}
+
+#introduction {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
 }
 /* The margins are all going to have to depend on the media, as well as the font sizes, this will have to be overhauled tomorrow or some other time */
