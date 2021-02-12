@@ -8,6 +8,7 @@
 
 @media only screen and (max-width: 1023px) {
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -151,7 +152,6 @@ p {
     left: 0; 
 }
 
-
 #homepage {
     border: 2px solid red;
     min-height: 100%;
@@ -168,6 +168,7 @@ p {
     padding: 2em 2em 2em 2em;
     max-width: 75% !important;
     max-height: auto;
+    border-radius: 50%;
 }
 
 #introduction {
@@ -189,6 +190,7 @@ p {
 
 html {
     scroll-behavior: smooth;
+    background-color: #fed0bb;
     /* background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,6 +205,7 @@ p {
 
 #contact {
     font-family: "Nanum Myeongjo";
+    color: white;
     overflow: hidden;
     position: absolute;
     font-size: medium;
@@ -213,7 +216,7 @@ p {
     margin: 0px auto;
     right: 0px;
     left: 0px;
-    background-color: red;
+    background-color: #b23a48;
 }
 
 #navigation {
@@ -226,6 +229,7 @@ p {
     width: 100%;
     border: 2px;
     border: 2px solid red;
+    color: #b23a48;
 }
 
 .page-container {
@@ -302,7 +306,7 @@ p {
     font-family: "Nanum Myeongjo";
     padding: 1em 1em 1em 1em;
     margin-bottom: 1%;
-    background-color: rgb(90, 146, 6);
+    background-color: #b23a48;
     color: white;
     border-radius: 10px 10px 10px 10px;
 }
@@ -375,6 +379,7 @@ ul {
     border: 2px solid red;
     max-width: 30%;
     max-height: 30%;
+    border-radius: 50%;
 }
 
 #introduction {
