@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Text() {
     return (
-        <div>
+        <div id="ABOUT">
             <p id="parapgrah1" class="text-container">I decided to work in the tech industry after a few years of soul-searching, looking for a line of work
             that would truly fit my skills and personality. I have always loved taking on challenges and working
             hard towards goals; for instance, in 2017 I qualified as an English teacher in the British school
@@ -23,7 +23,8 @@ export default function Text() {
             from various backgrounds, and its meritocratic approach to recruitment. I hope to continue growing my
             technical skills long after I graduate from the bootcamp, and will be happy to use them in combinations
             with other skills learned during previous employment and academic work.
-            <a href="https://northcoders.com/">Northcoders Bootcamp</a></p>
+            <p class="text-container"><a href="https://northcoders.com/"> 🖱️ Learn more about Northcoders Bootcamp </a></p>
+            </p>
         </div>
     )
 }

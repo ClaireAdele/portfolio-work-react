@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #d9f0ff;
 }
 
 p {
@@ -18,7 +19,7 @@ p {
 }
 
 #contact {
-    font-family: "Nanum Myeongjo";
+    font-family: "Quicksand";
     overflow: hidden;
     position: absolute;
     font-size: medium;
@@ -33,7 +34,7 @@ p {
 }
 
 #navigation {
-    font-family: "Nanum Myeongjo";
+    font-family: "Quicksand";
     position: fixed;
     font-size: 4vw;
     top: 0; 
@@ -94,7 +95,7 @@ p {
 }
 
 .skillbox {
-    font-family: "Nanum Myeongjo";
+    font-family: "Quicksand";
     padding: 1em 1em 1em 1em;
     margin-bottom: 3%;
     background-color: rgb(90, 146, 6);
@@ -182,6 +183,35 @@ p {
     margin-bottom: 30% !important;
 }
 
+.XPContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    border: solid red 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+.XPCard {
+    border: solid red 2px;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.paragraph {
+    margin-top: 3%;
+}
+
+.XPButtons {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 }
 
 /* Normal screen display */
@@ -190,7 +220,7 @@ p {
 
 html {
     scroll-behavior: smooth;
-    background-color: #fed0bb;
+    background-color: #d9f0ff;
     /* background-image: url("./components/App-Children/pexels-min-an-1137532.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,27 +230,66 @@ html {
 
 p {
     text-indent: 10%;
-    font-family: "Nanum Gothic";
+    font-family: "Quicksand";
+}
+
+ul {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h1 {
+    font-family: "Quicksand";
+    color: #083d77;
+
+}
+
+h2 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h3 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h4 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+a {
+    color: #fb8500;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
 }
 
 #contact {
-    font-family: "Nanum Myeongjo";
-    color: white;
+    font-family: "Quicksand";
+    color: #083d77;
     overflow: hidden;
     position: absolute;
     font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     bottom: 0; 
     left: 0;
     width: 100%;
-    border: 2px solid red;
     margin: 0px auto;
     right: 0px;
     left: 0px;
-    background-color: #b23a48;
+    background-color: #a2d2ff;
 }
 
 #navigation {
-    font-family: "Nanum Myeongjo";
+    background-color: #a2d2ff;
+    padding: 1em 1em 1em 1em;
+    font-family: "Quicksand";
     position: fixed;
     font-size: medium;
     top: 0; 
@@ -228,8 +297,7 @@ p {
     justify-content: flex-end;
     width: 100%;
     border: 2px;
-    border: 2px solid red;
-    color: #b23a48;
+    
 }
 
 .page-container {
@@ -244,6 +312,15 @@ p {
     padding-left: 0.5em;
     padding-right: 0.5em;
     margin-right: 2.5em;
+    color: #083d77;
+    text-decoration: none;
+
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    text-decoration-color: #fb8500;
+    font-size: medium !important;
 }
 
 .imgLink {
@@ -253,27 +330,32 @@ p {
 
 #flex-container-about{
     display: flex;
-    margin: 7% 3% 7% 3%;
+    margin: 7% 3% 10% 3%;
     padding: 15px 15px 15px 15px;
-    border: 2px solid red;
+    color:  #083d77;
+}
+
+#ABOUT {
+    border: solid #fb8500 2px;
 }
 
 .text-container {
    display: flex;
    font-size: medium;
    flex-direction: column;
-   border: 2px solid red;
    margin-left: 5%;
    margin-right: 5%;
    text-align: justify;
    text-justify: inter-word;
+   
+   padding: 5px 5px 5px 5px;
 }
+
 
 .picture-container {
     display: flex;
    flex-direction: column;
    align-items: center;
-   border: 2px solid red;
    margin: 3% 3% 3% 3%;
    padding: 20px 5px 20px 5px;
 }
@@ -293,20 +375,21 @@ p {
 }
 
 #flex-container-skills {
-    border: 2px solid red;
     padding: 15px 15px 15px 15px;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 20% 5% 20%;
+    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .skillbox {
-    font-family: "Nanum Myeongjo";
+    font-family: "Quicksand";
     padding: 1em 1em 1em 1em;
     margin-bottom: 1%;
-    background-color: #b23a48;
+    background-color: #fb8500 ;
     color: white;
     border-radius: 10px 10px 10px 10px;
 }
@@ -329,8 +412,10 @@ p {
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
+    padding: 1em 1em 1em 1em;
+    border-radius: 0px 6px 6px 6px;
 }
-}
+
 
 .projectCard {
     display: flex;
@@ -365,26 +450,69 @@ ul {
 }
 
 #homepage {
-    font-family: "Nanum Myeongjo";
-    border: 2px solid red;
+    font-family: "Quicksand";
     min-height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: 10%;
 }
 
 #devImg {
-    border: 2px solid red;
     max-width: 30%;
     max-height: 30%;
     border-radius: 50%;
 }
 
 #introduction {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
 }
-/* The margins are all going to have to depend on the media, as well as the font sizes, this will have to be overhauled tomorrow or some other time */
+
+.XPContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+.XPCard {
+    border-top: solid #fb8500 2px;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.paragraph {
+    margin-top: 3%;
+}
+
+.XPButtons {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.XPButton {
+    background-color: #fb8500;
+    color:  #083d77;
+    margin-top: 1%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: none;
+    border-radius: 12px 12px 12px 12px;
+
+}
+
+.XPButton:hover {
+    background-color: #dd7600;
+}
+
+.Date {
+    color: #dd7600;
+}
+
+}

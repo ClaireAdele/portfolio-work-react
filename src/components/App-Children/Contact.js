@@ -5,11 +5,9 @@ import iconLinkedin from './iconmonstr-linkedin-3.svg'
 export default function Contact() {
     return (
         <div id="contact">
-            <p>Contact</p>
-            <ul>
-                <li>07 802 786 947</li>
-                <li>claire.castanet-dev@outlook.com</li>
-            </ul>
+            <p>Contact:</p>
+            <p>07 802 786 947</p>
+            <p>claire.castanet-dev@outlook.com</p>
             <div class="imgLink">
             <a href="https://github.com/ClaireAdele"><img src={iconGitHub} alt="github"></img>
             </a>
