@@ -19,7 +19,7 @@ export default class Backend extends Component {
 
     render() {
         return (
-            <div className="projects-container">
+            <div>
                 {this.state.projects.map((project) => {
                     return <ProjectCard project={project} />
                 })}

@@ -7,142 +7,82 @@
 /* Phone Screen Display */
 
 @media only screen and (max-width: 1023px) {
-
-
 html {
     scroll-behavior: smooth;
     background-color: #d9f0ff;
+
 }
 
 p {
     text-indent: 10%;
+    font-family: "Quicksand";
+}
+
+ul {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h1 {
+    font-family: "Quicksand";
+    color: #083d77;
+
+}
+
+h2 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h3 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+h4 {
+    font-family: "Quicksand";
+    color: #083d77;
+}
+
+a {
+    color: #fb8500;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
 }
 
 #contact {
     font-family: "Quicksand";
+    color: #083d77;
     overflow: hidden;
     position: absolute;
     font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     bottom: 0; 
     left: 0;
     width: 100%;
-    border: 2px solid red;
     margin: 0px auto;
     right: 0px;
     left: 0px;
-    background-color: red;
+    background-color: #a2d2ff;
 }
 
 #navigation {
+    background-color: #a2d2ff;
+    padding: 1em 1em 1em 1em;
     font-family: "Quicksand";
     position: fixed;
-    font-size: 4vw;
+    font-size: medium;
     top: 0; 
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     width: 100%;
     border: 2px;
-    border: 2px solid red;
-    margin: 0px auto;
-    left: 0px;
-    right: 0px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.navLink {
-    padding-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-.imgLink {
-    display: flex;
-    justify-content: center;
-}
-
-.text-container {
-   display: flex;
-   font-size: medium;
-   flex-direction: column;
-   border: 2px solid red;
-   margin: 10% 3% 10% 3%;
-   text-align: justify;
-   text-justify: inter-word;
-}
-
-.picture-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid red;
-    margin: 30% 0% 10% 0%;
-}
-
-#Claire {
-    max-width: 35%;
-    max-height: 35%;
-}
-
-#flex-container-skills {
-    border: 2px solid red;
-    padding: 15px 15px 15px 15px;
-    margin: 15% 5% 10% 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.skillbox {
-    font-family: "Quicksand";
-    padding: 1em 1em 1em 1em;
-    margin-bottom: 3%;
-    background-color: rgb(90, 146, 6);
-    color: white;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-  
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.projectCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    border: 2px solid red;
-    margin: 0% 10% 0% 10%;
-    padding: 1em 1em 1em 1em;   
-}
-
-.project-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.project-img {
-    max-width: 75%;
-    max-height: 75%;
-    margin-left: 25%;
-    margin-bottom: 1%;
+    
 }
 
 .page-container {
@@ -153,34 +93,158 @@ p {
     left: 0; 
 }
 
+.navLink {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 1em;
+    color: #083d77;
+    text-decoration: none;
+
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    text-decoration-color: #fb8500;
+    font-size: medium !important;
+}
+
+.imgLink {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-container-about{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 3% 25% 3%;
+    padding: 15px 15px 15px 15px;
+    color:  #083d77;
+}
+
+#ABOUT {
+    border: solid #fb8500 2px;
+}
+
+.text-container {
+   display: flex;
+   font-size: medium;
+   flex-direction: column;
+   margin-left: 5%;
+   margin-right: 5%;
+   text-align: justify;
+   text-justify: inter-word;
+   
+   padding: 5px 5px 5px 5px;
+}
+
+
+.picture-container {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 3% 3% 3% 3%;
+   padding: 20px 5px 20px 5px;
+}
+
+#paragraph1 {
+    margin-bottom : 5% !important;
+}
+
+#paragraph2 {
+    margin-bottom : 3%;
+}
+
+#Claire {
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 50%;
+}
+
+#techContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+#flex-container-skills {
+    padding: 15px 15px 15px 15px;
+    margin: 15% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillbox {
+    font-family: "Quicksand";
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1%;
+    background-color: #fb8500;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border: 2px solid #fb8500;
+    margin: 0% 5% 0% 5%;
+    padding: 1em 1em 1em 1em; 
+    margin-bottom: 10%;  
+    max-width : 550px;
+    max-height : 100%;  
+    background-color: #a2d2ffc5;  
+    border-radius: 10px 10px 10px 10px;
+}
+
+#projectsContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.project-img {
+    max-width: 100%;
+    max-height: 75%;
+    margin-bottom: 1%;
+}
+
+.linkProj {
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
 #homepage {
-    border: 2px solid red;
+    font-family: "Quicksand";
     min-height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 10%;
 }
 
 #devImg {
-    border: 2px solid red;
+    margin-top: 3%;
     padding: 2em 2em 2em 2em;
     max-width: 75% !important;
     max-height: auto;
     border-radius: 50%;
+    margin-bottom: 10%;
 }
 
 #introduction {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
-}
-
-#paragraph2 {
-    margin-bottom: 30% !important;
 }
 
 .XPContainer {
@@ -188,14 +252,13 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 3%;
-    border: solid red 2px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30%;
 }
 
 .XPCard {
-    border: solid red 2px;
+    border-top: solid #fb8500 2px;
     margin-top: 5%;
     text-align: justify;
 }
@@ -205,14 +268,34 @@ p {
 }
 
 .XPButtons {
-    margin-top: 10%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.XPButton {
+    background-color: #fb8500;
+    color:  #083d77;
+    margin-top: 1%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: none;
+    border-radius: 12px 12px 12px 12px;
 
 }
+
+.XPButton:hover {
+    background-color: #dd7600;
+}
+
+.Date {
+    color: #dd7600;
+}
+
+}
+
+
+
 
 /* Normal screen display */
 
@@ -347,7 +430,6 @@ a:hover {
    margin-right: 5%;
    text-align: justify;
    text-justify: inter-word;
-   
    padding: 5px 5px 5px 5px;
 }
 
@@ -374,10 +456,16 @@ a:hover {
     border-radius: 50%;
 }
 
+#techContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
 #flex-container-skills {
     padding: 15px 15px 15px 15px;
-    margin: 5% 20% 5% 20%;
-    border: 2px solid red;
+    margin: 2% 5% 5% 5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -389,55 +477,35 @@ a:hover {
     font-family: "Quicksand";
     padding: 1em 1em 1em 1em;
     margin-bottom: 1%;
-    background-color: #fb8500 ;
+    background-color: #fb8500;
     color: white;
     border-radius: 10px 10px 10px 10px;
 }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-  
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    padding: 1em 1em 1em 1em;
-    border-radius: 0px 6px 6px 6px;
-}
-
 
 .projectCard {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    border: 2px solid red;
-    margin: 0% 30% 0% 30%;
+    border: 2px solid #fb8500;
+    margin: 0% 5% 0% 5%;
     padding: 1em 1em 1em 1em; 
-    margin-bottom: 10%;     
+    margin-bottom: 10%;  
+    max-width : 550px;
+    max-height : 100%;  
+    background-color: #a2d2ffc5;  
+    border-radius: 10px 10px 10px 10px;
 }
 
-.project-container {
+#projectsContainer {
     display: flex;
     flex-direction: row;  
-    border: 2px solid red;  
+
 }
 
 .project-img {
-    max-width: 50%;
-    max-height: 50%;
-    margin-left: 25%;
+    max-width: 100%;
+    max-height: 75%;
     margin-bottom: 1%;
 }
 

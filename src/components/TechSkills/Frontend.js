@@ -13,13 +13,13 @@ export default class Frontend extends Component {
             gitHub: "GitHub Repositery",
             hosted: "Hosted Version - Work in Progress", 
             hosted_version_link:"#",
-            description: "I am currently building the front-end of the be-nc-news project in the back-end projects section. I am using React to build the structure of the app, and am making requests to my API using axios. This is a work in progress, I expect to be able to host the final version soon."
+            description: "I am currently building the front-end of the be-nc-news project. I am using React to build the structure of the app, and am making requests to my API using axios. This is a work in progress, I expect to be able to host the final version soon."
         }]
     }
 
     render() {
         return (
-            <div className="projects-container">
+            <div>
             {this.state.projects.map((project) => {
                 return <ProjectCard project={project} />
             })}
