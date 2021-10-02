@@ -5,12 +5,33 @@ export default class Work extends Component {
         return (
             <div className="XPContainer">
                 <div className="XPCard">
+                    <h3>Graduate Software Engineer </h3> <h4> DAI - Digital Applications International | Stockport </h4><h4 className="Date"> March 2021 - Current</h4>
+                    <ul className="paragraph">
+                        <li>▪ Testing: Learnt to use testing framework powered by Fitnesse, and how to write automated fixtures to improve test coverage. Improved ability to detect issues and thoroughly test aspects of complex software applications. Gained understanding of employer's own software and database.
+                        </li>
+                        <li>▪ Take responsibility for the completion and delivery of a new module: Finished writing module functionalities according to the specification, and integrated own code within existing software/legacy code (project that has been developed on an ongoing basis since 2013). Pro-actively pointed out grey areas in specifications from clients, and potential pain points through testing and modelling warehouse processes. Took responsibility for delivery of module and completion of tickets during release phase.
+                        </li>
+                        <li>▪ Insuring good clients' experience: Communicated with the warehouse testing team to complete tickets on several modules when doing releases, and made sure to understand what their expectations were. Rewrote part of the specification for clarity when realised additional screens were needed to improve the warehouse operator's experience, and wrote those additional features from scratch. 
+                        </li>
+                        <li>▪ Agile work environment: Agile methodology used in team, along with tools such as Jira to organise daily workload. Helped mentor other junior team members on module responsible for. 
+                        </li>
+                        <li>▪ Technology used: Matflo (DAI own Warehouse Management Software), C, HTML within C, Fitnesse.
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="XPCard">
                     <h3>Trainee Software Engineer </h3> <h4> Northcoders Coding Bootcamp | Manchester </h4><h4 className="Date"> November 2020 - March 2021</h4>
                     <ul className="paragraph">
-                        <li>▪ Full stack web development course. Full time (8:30 to 5:00), 5 days a week.</li>
-                        <li>▪ Pair-programming, training in Test-Driven Development methodology and version control.
+                        <li>▪ Full stack web development course. </li>
+                        <li>▪ Pair-programming, training in Test-Driven Development methodology and version control (git).
                         </li>
-                        <li>▪ Regular "show and tell" opportunities, learning to present and discuss our projects in technically accurate terms, and convey our ideas and knowledge to others.</li>
+                        <li>▪ Regular "show and tell" opportunities, learning to present and discuss our projects in technically accurate terms, and convey our ideas and knowledge to others.
+                        </li>
+                        <li>▪ Trained in front and back end web development, using JavaScript and Node.js. Learnt several front-end and mobile development tools as well, such as React and React Native.
+                        </li>
+                        <li>▪ Completed projects ranging from small, one-day task to a group project over two weeks, tackling varied development challenges (OOP with JavaScript, API-building, React Frontend, Mobile development with React Native, etc.).
+                        </li>
                     </ul>
                 </div>
 

@@ -1,4 +1,5 @@
 import './App.css';
+import './App_Media_Query_Phone.css';
 import { Router } from "@reach/router";
 import About from "./components/About/About"
 import Experience from "./components/Experience/Experience"

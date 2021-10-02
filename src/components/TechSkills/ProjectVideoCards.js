@@ -22,7 +22,7 @@ export default class ProjectImgCard extends Component {
             type:"video/mp4",
             github_link: "https://github.com/ClaireAdele/HodgesHounds",
             gitHub: "GitHub Repositery",
-            description: "HodgesHounds was a project created to help a family member who was considering opening a dog grooming business. I designed it with their needs in mind, creating an interactive login for them to be able to modify some of the information displayed dynamically from their end, without my help. I created a small Firebase Firestore database to hold this information, plus a login though Firebase too. The website was built using React.", 
+            description: "Hodge's Hounds was a project created to help a family member who was considering opening a dog grooming business. I designed it with their needs in mind, creating an interactive login for them to be able to modify some of the information displayed dynamically from their end, without my help. I created a small Firebase Firestore database to hold this information, plus a login though Firebase too. The website was built using React.", 
             technologyUsed: "Firebase (Firestore, Auth), React"
         },
         {

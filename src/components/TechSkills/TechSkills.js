@@ -1,16 +1,13 @@
 import React from 'react';
-import Backend from './Backend'
-import Frontend from './Frontend'
-import Blurb from './Blurb'
-
+import ProjectImgCard from './ProjectImgCards';
+import ProjectVideoCards from './ProjectVideoCards';
 
 export default function TechSkills() {
     return (
         <div id="techContainer">
-                <Blurb />
                 <div id="projectsContainer">
-                <Backend />
-                <Frontend />
+                <ProjectImgCard />
+                <ProjectVideoCards />
                 </div>
         </div>
     )

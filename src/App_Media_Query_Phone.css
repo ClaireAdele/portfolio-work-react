@@ -4,7 +4,6 @@
     html {
         scroll-behavior: smooth;
         background-color: #d9f0ff;
-    
     }
     
     p {
@@ -156,27 +155,9 @@
     #techContainer {
         display: flex;
         flex-direction: column;
-        margin-top: 7%;
+        margin-top: 27%;
         margin-bottom: 10%;
         align-items: center;
-    }
-    
-    #flex-container-skills {
-        padding: 15px 15px 15px 15px;
-        margin: 15% 5% 5% 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .skillbox {
-        font-family: "Quicksand";
-        padding: 1em 1em 1em 1em;
-        margin-bottom: 1%;
-        background-color: #fb8500;
-        color: white;
-        border-radius: 10px 10px 10px 10px;
-        text-align: center;
     }
     
     .projectCard {
@@ -184,9 +165,8 @@
         flex-direction: column;
         align-items: center;
         text-align: justify;
-        border: 2px solid #fb8500;
         margin: 0% 5% 0% 5%;
-        padding: 1em 1em 1em 1em; 
+        padding: 2% 2% 2% 2%; 
         margin-bottom: 10%;  
         max-width : 550px;
         max-height : 100%;  
@@ -200,15 +180,39 @@
         align-items: center;
         margin-bottom: 15%;
     }
+
+    .descriptionProj {
+        color: #083d77;
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
     
     .project-img {
         max-width: 100%;
         max-height: 75%;
         margin-bottom: 1%;
     }
+
+    .buttonsProj {
+        display: flex;
+        align-self: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
     
     .linkProj {
-        margin-bottom: 2%;
+    background-color: #fb8500;
+    color:  #083d77;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-style: none;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    text-decoration: none !important;
+    font-family: Quicksand;
+    margin-right: 1%;
+    margin-left: 1%;
     }
     
     ul {
