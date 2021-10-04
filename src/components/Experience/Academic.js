@@ -6,8 +6,8 @@ export default function Academic() {
             <div  className="XPCard">
             <h3>Master of Research – Political Science </h3> <h4> Université Bordeaux Montaigne </h4><h4 className="Date"> 09/2016-06/2017-09/2018-09/2019</h4>
             <ul className="paragraph">
-            <li>▪ Distance Learning course, I was living in Manchester for the whole duration.</li>
-            <li>▪ Research project: Alternative Food Networks in the United Kingdom: equivalent 1:1. Available in full on LinkedIn.</li>
+            <li>▪ Distance Learning course, I was living in Manchester for the whole duration. </li>
+            <li>▪ Research project: Alternative Food Networks in the United Kingdom: equivalent 1:1. Research centered around ethical food movements in the United Kingdom, and the necessary tensions that arise from inscribing a political movement within the market. Discussed issues around ethical consumption and citizenship, and how grassroot organisations in alternative food networks are trying to delineate new spaces of political and "citizenly" action.</li>
             <li>▪ Completed first year in 2016-2017, took a gap year to complete PGCE and reflect on research project.</li>
             </ul>
             </div>

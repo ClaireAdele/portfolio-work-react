@@ -114,10 +114,6 @@
         color:  #083d77;
     }
     
-    #ABOUT {
-        border: solid #fb8500 2px;
-    }
-    
     .text-container {
        display: flex;
        font-size: medium;

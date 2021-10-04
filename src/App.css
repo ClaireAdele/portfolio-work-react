@@ -43,6 +43,11 @@ h4 {
     color: #083d77;
 }
 
+a {
+    color: #fb8500;
+    text-decoration: none;
+}
+
 #contact {
     font-family: "Quicksand";
     color: #083d77;
@@ -111,7 +116,9 @@ h4 {
 }
 
 #ABOUT {
-    border: solid #fb8500 2px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .text-container {

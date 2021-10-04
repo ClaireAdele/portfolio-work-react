@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import VideoWebsite from "./img-projects/HodgesHounds.mp4";
 import VideoGigBuddy from "./img-projects/GigBuddy.mp4";
+import VideoFreshNews from "./img-projects/FreshNews.mp4";
 import SingleProjectVideoCard from './SingleProjectCardVideo';
 
 
@@ -9,7 +10,7 @@ export default class ProjectImgCard extends Component {
         projects: [
         {
             title: "Fresh News",
-            src: VideoWebsite,
+            src: VideoFreshNews,
             type: "video/mp4",
             github_link: "https://github.com/ClaireAdele/fresh-news-app",
             gitHub: "GitHub Repositery",
